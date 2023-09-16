@@ -1,13 +1,17 @@
 @import url(./Fonts/inter.css);
 
 .header{
+display: grid;
+background-color: black;
+}
+.logo{
 
 }
 .header__title{
-
+color: white;
 }
 .header__subtitle{
-
+color: white;
 }
 .illustration{
 
@@ -19,14 +23,14 @@
 
 }
 .paragraph__title{
-
+color: white;
 }
 .paragraph__subtitle{
-
+color: white;
 }
 .paragraph__author{
-
+color: white;
 }
 .paragraph__text{
-    
+color: white;
 }
