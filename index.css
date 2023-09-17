@@ -1,36 +1,74 @@
 @import url(./Fonts/inter.css);
 
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: Inter;
+  }
 .header{
 display: grid;
 background-color: black;
+font-family: inter;
+place-items: center;
+margin-bottom: -10px;
 }
 .logo{
+margin-top: 34px;
+width: 270px;
+height: 70px;
+
 
 }
 .header__title{
 color: white;
+font-size: 96px;
+width: 793px;
+height: 200px;
+
 }
+
 .header__subtitle{
 color: white;
+font-size: 30px;
+line-height: 36px;
+width: 720px;
+height: 72px;
 }
 .illustration{
 
 }
 .header__main-illustration{
+width: 984px;
+height: 615px;
 
 }
-.paragraph{
-
+.paragraphs{
+   margin-top: -20px;
+    background-color: black;
 }
 .paragraph__title{
 color: white;
+font-size: 54px;
 }
 .paragraph__subtitle{
 color: white;
+font-size: 24px;
 }
 .paragraph__author{
 color: white;
+font-size: 24px;
 }
 .paragraph__text{
 color: white;
+font-size: 16px;
+}
+.images{
+background-color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    justify-content: center; 
 }
