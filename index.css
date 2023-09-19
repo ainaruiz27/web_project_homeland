@@ -1,10 +1,12 @@
 @import url(./Fonts/inter.css);
 
 .page {
+    font-family: Inter;
     min-width: 1100px;
     max-width: 1600px;
     margin: 0 auto;
-    font-family: Inter;
+    background-color: black;
+       
   }
 .header{
 display: grid;
@@ -12,10 +14,11 @@ background-color: black;
 font-family: inter;
 place-items: center;
 margin-bottom: -10px;
+text-align: center;
 }
 .logo{
 margin-top: 34px;
-width: 270px;
+max-width:  270px;
 height: 70px;
 
 
@@ -24,8 +27,7 @@ height: 70px;
 color: white;
 font-size: 96px;
 width: 793px;
-height: 200px;
-
+max-height: 200px;
 }
 
 .header__subtitle{
@@ -35,21 +37,24 @@ line-height: 36px;
 width: 720px;
 height: 72px;
 }
-.illustration{
 
-}
 .header__main-illustration{
 width: 984px;
 height: 615px;
-
 }
+
 .paragraphs{
-   margin-top: -20px;
-    background-color: black;
+display: grid;
+text-align: center;
+grid-template-columns: auto auto;
+margin-top: -20px;
+background-color: black;
+
 }
 .paragraph__title{
 color: white;
 font-size: 54px;
+
 }
 .paragraph__subtitle{
 color: white;
@@ -64,11 +69,58 @@ color: white;
 font-size: 16px;
 }
 .images{
+display: grid;
 background-color: black;
 }
-.grid-container {
+.grid-images {
+    width: 1184px;
+    height: 442px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 10px; 
     justify-content: center; 
+    align-items: center;
+}
+.place{
+display: grid;
+grid-template-areas:
+"title subtitle"
+"image texts"
+"button texts";
+}
+
+.grid__title{
+font-size: 72px;
+grid-area: title;
+}
+.grid__subtitle{
+grid-area: subtitle;
+}
+.grid__image{
+max-width: 460px;
+grid-area: image;
+}
+.grid__subtitle-title{
+
+}
+.grid__subtitle-link{
+
+}
+.grid__texts{
+    grid-area: texts;
+    font-size: 18px;
+}
+.grid__button{
+    color: #FFFFFF;
+    background-color: #0278FE;
+    grid-area: button;
+    max-width: 355px;
+    min-width: 288px;
+    max-height: 50px;
+    min-height: 48px;
+    font-size: 18px;
+}
+.grid-container{
+    background-color: black;
+    color: #FFFFFF;
 }
