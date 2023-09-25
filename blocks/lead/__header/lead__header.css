@@ -1,0 +1,9 @@
+
+.lead__header {
+    color: #FFFFFF;
+    display: grid;
+    font-family: inter;
+    place-items: center;
+    margin-bottom: -10px;
+    text-align: center;
+}

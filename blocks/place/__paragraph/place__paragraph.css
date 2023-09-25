@@ -1,0 +1,5 @@
+.place__paragraph {
+    max-width: 484px;
+    grid-area: texts;
+    font-size: 18px;
+}

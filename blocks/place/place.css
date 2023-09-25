@@ -1,0 +1,12 @@
+.place {
+    display: grid;
+    grid-template-areas:
+        "title subtitle"
+        "image texts"
+        "button texts";
+    gap: 40px;
+max-width:987px ;
+max-height:4098px ;
+margin: 0 auto 0 auto;
+
+}

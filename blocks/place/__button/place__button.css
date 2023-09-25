@@ -1,0 +1,10 @@
+.place__button {
+    color: #FFFFFF;
+    background-color: #0278FE;
+    grid-area: button;
+    max-width: 355px;
+    min-width: 288px;
+    max-height: 50px;
+    min-height: 48px;
+    font-size: 18px;
+}

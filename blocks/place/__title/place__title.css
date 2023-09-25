@@ -1,0 +1,5 @@
+.place__title {
+    max-width: 484px;
+    font-size: 72px;
+    grid-area: title;
+}
