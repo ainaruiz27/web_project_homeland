@@ -10,3 +10,8 @@ max-height:4098px ;
 margin: 0 auto 0 auto;
 
 }
+@media screen and (max-width:1279px) {
+    .photo-grid {
+        width: 95%;
+    }
+}
