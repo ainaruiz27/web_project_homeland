@@ -1,4 +1,16 @@
 .lead__main-illustration {
-    width: 984px;
-    height: 615px;
+   max-width: 984px;
+   max-height: 615px;
+   margin-top: 30px;
+}
+@media screen and (max-width:1279px) {
+    .lead__main-illustration {
+        width: 100%;
+    }
+}
+@media screen and (max-width:767px){
+    .lead__main-illustration {
+
+       
+    }
 }

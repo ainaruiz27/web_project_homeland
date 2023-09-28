@@ -3,3 +3,9 @@
     grid-area: subtitle;
     font-size: 18px;
 }
+@media screen and (max-width:767px){
+    .place__website{
+        font-size: 12px;
+
+    }
+}

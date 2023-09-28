@@ -3,10 +3,12 @@
     color: #FFFFFF;
     background-color: #0278FE;
     max-width: 355px;
-    min-width: 288px;
+    min-width: 158px;
     max-height: 50px;
     min-height: 48px;
     font-size: 18px;  
+    border: none;
+    border-radius: 5px;
 
 }
 

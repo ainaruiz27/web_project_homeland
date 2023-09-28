@@ -1,0 +1,13 @@
+.lead__logo {
+    margin-top: 34px;
+    max-width: 270px;
+   max-height: 70px;
+
+}
+@media screen and (max-width:767px){
+    .lead__logo{
+        max-width: 200px;
+        max-height: 51.85px;
+
+    }
+}

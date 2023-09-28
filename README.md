@@ -33,6 +33,7 @@ El proyecto consta de estas secciones:
 -Archivo README: información útil sobre el desenvolupamento del proyecto.
 -Carpeta de blocks: donde hemos dividido por carpetas los diferentes estilos del documento.
 -Carpeta Fonts: donde encontramos las fuentes que hemos descargado para el proyecto.
+-Carpeta Imagenes: con todas las imagenes del proyecto.
 
 
 - Guardaremos los avances del trabajo en la aplicación **Git Bash** ..

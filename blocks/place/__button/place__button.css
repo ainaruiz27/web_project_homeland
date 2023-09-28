@@ -7,4 +7,14 @@
     max-height: 50px;
     min-height: 48px;
     font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px){
+    .place__button{
+       width: 100%;
+       text-align: center;
+    }
 }

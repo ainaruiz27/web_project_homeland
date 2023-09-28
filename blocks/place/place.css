@@ -11,7 +11,22 @@ margin: 0 auto 0 auto;
 
 }
 @media screen and (max-width:1279px) {
-    .photo-grid {
-        width: 95%;
+    .place{
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+}
+@media screen and (max-width:767px){
+    .place{
+        grid-template-areas: 
+        "title"
+        "subtitle"
+        "image" 
+        "texts"
+        "button";
+        margin: 0 10px 40px 10px;
+        gap: 20px;
+        margin-top: 20px;
+
     }
 }
