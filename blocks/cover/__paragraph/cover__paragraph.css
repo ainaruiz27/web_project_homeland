@@ -1,22 +1,23 @@
 .cover__paragraph {
     z-index: 2;
     color: #FFFFFF;
-    background-color: #0278FE;
+    background-color :#0278FE;
     max-width: 355px;
     min-width: 158px;
     max-height: 50px;
     min-height: 48px;
-    font-size: 18px;  
+    font-size: 18px;
     border: none;
     border-radius: 5px;
 
 }
 
-.cover__paragraph:hover{
+.cover__paragraph:hover {
     background-color: rgb(50, 50, 50);
     cursor: pointer;
 }
-.cover__paragraph:hover + .cover__overlay{
+
+.cover__paragraph:hover+.cover__overlay {
     background-color: rgb(50, 50, 50);
     opacity: 0.5;
 }
