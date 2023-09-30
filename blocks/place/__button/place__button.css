@@ -10,6 +10,19 @@
     border:none;
     border-radius: 5px;
     text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+   
+}
+
+.place__button:hover {
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+@media screen and (max-width:1279px) {
+    .place__button{
+ 
+    }
 }
 
 @media screen and (max-width:767px){
