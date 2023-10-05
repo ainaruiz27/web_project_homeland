@@ -4,3 +4,10 @@
   font-weight: 400;
       
 }
+@media screen and (max-width:767px){
+  .place__website-link{
+    padding-left: 10px;
+    
+
+  }
+}
